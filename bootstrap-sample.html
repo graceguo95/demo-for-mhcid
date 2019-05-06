@@ -3,11 +3,19 @@
   <head>
     <title>Bootstrap Sample</title>
    
+ 
+
+
+   
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  
 
     <!-- Bootstrap CSS -->
+        
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     
     
@@ -36,46 +44,67 @@
         letter-spacing: 0.1em;
       }
       
-
-     
+      .px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+      }
       
-  
+      .pt-3{
+  	padding-top: 3 !important;
+      }
+      
+      .pb-3{
+    padding-bottom: 3 !important;
+      }
+
  
 }
-      
-    
+          
    </style>
+    
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+    </ul>
+  </div>
+</nav>
+      
+        
+
+
     
   </head>
   <body>
     <div class="container">
-       <div class="row justify-content-md-center">
-        <div class="col-12 col-md-auto">
-          <div class="mx-auto"><h1 align="center">HAND-SCULPTED JEWELRY</h1>
-      <p class="subtitle", align="center">Made by Grace Guo</h2> 
-         </div> 
-    </div>
-    </div>
-    </div>
+       <div class="row justify-content-md-center mx-auto">
+        <div class="col-12 col-md-auto" align="center"><h1>HAND-SCULPTED JEWELRY</h1>
+      <p class="subtitle" align="center">Made by Grace Guo</p> 
+        </div>
+       </div>
          
     
     <div class="row">
-    <div class="col-sm-4 col-md-auto mx-auto">
+    <div class="col-sm-4 col-md-auto px-2">
       <img class="img-fluid" src="https://scontent-sjc3-1.cdninstagram.com/vp/b9389942c7fbb83494c09f42eaa70085/5D75D46E/t51.2885-15/e35/28765892_355629981601347_3839835465683304448_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com", width=350, height=350>
       <p class="body">Golden Leaf Pendant</p>
       </div>
-    <div class="col-sm-4 col-md-auto mx-auto">
+    <div class="col-sm-4 col-md-auto px-2">
       <img class="img-fluid" src="https://scontent-sjc3-1.cdninstagram.com/vp/9b9a55acebec297c707d65184cb49997/5D57B1F6/t51.2885-15/e35/29416920_2408387665853406_4631118181346312192_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com", width=350, height=350>
       <p class="body">Eye of Horus Pendant</p>
     </div>
-    <div class="col-sm-4 col-md-auto mx-auto">
+    <div class="col-sm-4 col-md-auto px-2">
       <img class="img-fluid" src="https://scontent-sjc3-1.cdninstagram.com/vp/5f9704543abc76beb45bce02ad7f683a/5D719797/t51.2885-15/e35/30589847_448294312271258_3225764006891356160_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com", width=350, height=350><p class="body">Tribal Talisman Pendants</p>
    </div>
   </div>
 </div>
-<p>
+
 <div class="container" align="center">
-  <div class="col-md-auto">
+  <div class="col-md-auto pt-3">
     <a align="center" class="btn btn-info" href="https://www.etsy.com/shop/psychonautix/" role="button" target="_blank"><div class="button-font">Visit My Shop</div></a>
   </div>
 </div>
